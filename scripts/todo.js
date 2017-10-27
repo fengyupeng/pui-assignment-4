@@ -44,7 +44,8 @@ $(document).ready(function(){
     // in cart page
     if (page_name == "cart_page") {
         if (get_total_quantity() == 0) {
-
+            $('.item').remove();
+            alert("Your car is empty! Go to Home page to add more product!")
         } else {
             // update the first item
             $item = $('.item');
@@ -76,7 +77,6 @@ $(document).ready(function(){
         $product = $(this).parent().parent();
         var product_quantity = parseInt(($product).find("input.quantity_input").attr("value"));
         var product_shape = $('#' + product_name).find("input[name='shape']:checked").val();
-        console.log(product_shape);
         add_product_to_cart(product_name, product_price,product_shape, product_quantity);
         // change number in header
         $("#cart").text(function(){
@@ -84,7 +84,15 @@ $(document).ready(function(){
         });
         // save cart to local storage
         localStorage.setItem("savedCart", JSON.stringify(cartList));
-        console.log(cartList);
+    });
+
+    // delete button in cart
+    $("button.delete_button").click(function(){
+        var item_id = $(this).attr('name');
+        var index = item_id[item_id.length -1];
+        cartList.splice(index, 1);
+        localStorage.setItem("savedCart", JSON.stringify(cartList));
+        location.reload();
     });
 
     // change quantity
