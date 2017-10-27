@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Flip Stitch Pillow</title>
+
+  <!--The following line loads in your CSS style sheet-->
+  <link rel="stylesheet" href="../styles/detail.css">
+
+  <!--The following line loads in 2 fonts from Google Fonts: Bad Script and Lato-->
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Lato" rel="stylesheet">
+
+  <!-- loads jQuery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <!--The following line loads in your JS script-->
+  <script src="../scripts/todo.js"></script>
+</head>
+
+<body id = "detail_page">
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a title = "Home" href="../index.html">Home</a>
+          <a title = "Cart" href="../html/cart.html" id="cart">Cart (0)</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id = 'shop'>
+      <div class = 'product' id = 'couch'>
+        <img src = '../resources/images/pillow0.png' class = 'product_img'>
+        <div class = 'product_info'>
+          <h1 class = 'product_name'>Couch Pillow<br />$25</h1>
+          <p class = 'selection_title'>Shape</p>
+          <form class="shape">
+            <input type="radio" name="shape" value="square" checked> Square
+            <input type="radio" name="shape" value="round"> Round
+            <input type="radio" name="shape" value="dog"> Dog
+            <input type="radio" name="shape" value="cat"> Cat
+            <input type="radio" name="shape" value="bunny"> Bunny
+            <input type="radio" name="shape" value="bear"> Bear
+            <input type="radio" name="shape" value="custom"> Custom
+          </form>
+          <p class = 'selection_title'>Quantity</p>
+          <form>
+            <input type='button' value="-" class = "minus_button">
+            <input type="number" name="quantity" class="quantity_input" value = '0'>
+            <input type="button" value="+" class ="plus_button">
+          </form>
+          <button class = "add_button" name = "couch" >Add to cart</button>
+        </div>
+      </div>
+  </div>
+
+  <div id="detail_description">
+    <h2>About Our Couch Pillow</h2>
+    <p class = "p1"> People's memories are maybe the fuel they burn to stay alive. Whether 
+    those memories have any actual importance or not, it doesn't matter as far
+     the maintenance of life is concerned. They are all just fuel. Advertising
+      filler in the news paper, philosophy books, dirty pictures in a magazine,
+       a bundle of ten-thousand-yen bills; when you feed them to fire, they are
+        just paper. The fire isn't thinking 'oh This is Kant' or 'Oh This is 
+        Yomuri evening edition' or 'Nice tits', while it burns. To the fire,
+         they are nothing but scraps of paper. It is the exact same thing. 
+         Important memories , not-so-important memories, totally useless
+          memories : there is no distinction — they are all just fuel
+    </p>
+    <img src = '../resources/images/detail_img0.png' class="detail_img">
+    <p class="p2">Painful is the stress when one cannot reproduce or convey vividly to others, however hard he tries, what he's experienced so intensely. In my case, the stronger is the intention to "write about a particular subject in a particular way," the harder it becomes to start writing and to express myself. This stress somewhat resembles the irritation one feels when he cannot describe to another person what he experienced so vividly and realistically in his dreams. All words I use to narrate my feeling of the moment fail incessantly to describe what I wish to, and then they begin to betray me.</br></br>
+
+    You burn barns. I don't burn barns. There's this glaring difference, and to me, rather than say which of us is strange, first of all I'd like to clear up just what that difference is
+    </p>
+  </div>
+
+</body>
+</html>

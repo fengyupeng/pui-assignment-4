@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Flip Stitch Pillow</title>
+
+  <!--The following line loads in your CSS style sheet-->
+  <link rel="stylesheet" href="../styles/cart.css">
+
+  <!--The following line loads in 2 fonts from Google Fonts: Bad Script and Lato-->
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Lato" rel="stylesheet">
+
+  <!-- loads jQuery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <!--The following line loads in your JS script-->
+  <script src="../scripts/todo.js"></script>
+</head>
+
+<body id = "cart_page">
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a title = "Home" href="../index.html">Home</a>
+          <a title = "Cart" href="" id="cart">Cart (0)</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="checkout">
+    <h1 class = "total_quantity"> Total (4 items): $85</h1>
+    <button class = "checkout_button">Check Out</button>
+  </div>
+
+  <div class = "cart">
+    <div class = 'item' id = 'item_0'>
+        <img src = '../resources/images/pillow0.png' class = 'item_img'>
+        <div class = 'item_info'>
+          <h1 class = 'item_name'>Couch Pillow</h1>
+          <p class = 'selection_shape'>Shape: square</p>
+          <p class = 'selection_quantity'>Quantity:</p>
+          <form>
+            <input type="number" name="quantity" class="item_quantity_input" value = '0'>
+          </form>
+          <button class = "delete_button" name = "item_0" >Detele</button>
+        </div>
+        <h1 class = "item_price">$25</h1>
+    </div>
+  </div>
+
+
+ 
+
+</body>
+</html>

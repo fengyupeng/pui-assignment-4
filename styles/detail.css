@@ -1,0 +1,97 @@
+@font-face {font-family: Avenir; src: ("/Avenir 1/AveniHea"), src:("/Avenir 2/AveniRom");}
+
+
+body{
+  text-align: left;
+  width: 100%;
+  margin: auto;
+  color: #ACA074;
+  font-family: 'Arial', sans-serif;
+}
+
+header{text-align: center;
+    margin-bottom: 80px;}
+
+nav ul{
+    padding-top: 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none; 
+    color: #ACA074; 
+    padding-left: 3em; 
+    padding-right: 3em
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+}
+
+
+.product {
+    padding-left: 200px;
+    height: 450px;
+ }
+
+.product_img{
+    width:30%;
+    float:left;
+    position: relative;
+}
+
+.product_info{
+    width:65%;
+    float:right;
+    position: relative;
+}
+
+.shape{
+    color:#787878;
+}
+
+input[type=number] {
+    width: 15px;
+}
+
+.add_button{
+    background-color: #ACA074;
+    border: none;
+    padding:15px 32px;
+    color:white;
+    text-align: cneter;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.selection_title{
+    color: black;
+    margin-bottom: 5px;
+    margin-top: 2em;
+}
+
+#detail_description {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+p {
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  color: black
+}
+h2 {
+    color: black;
+}
+
+img.detail_img {
+    float:left;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 120px;
+}
+p.p2 {margin-top: 40px;}
+

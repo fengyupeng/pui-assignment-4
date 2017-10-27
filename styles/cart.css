@@ -1,0 +1,107 @@
+@font-face {font-family: Avenir; src: ("/Avenir 1/AveniHea"), src:("/Avenir 2/AveniRom");}
+
+
+body{
+  text-align: left;
+  width: 100%;
+  margin: auto;
+  color: #474747;
+  font-family: 'Arial', sans-serif;
+}
+
+header{text-align: center;
+    margin-bottom: 80px;}
+
+nav ul{
+    padding-top: 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none; 
+    color: #ACA074; 
+    padding-left: 3em; 
+    padding-right: 3em
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+}
+
+.checkout {
+    margin-right: 15%;
+    height: 200px;
+
+}
+
+.checkout h1 {
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+.checkout_button{
+    background-color: #ACA074;
+    border: none;
+    border-radius: 10px;
+    padding:15px 100px;
+    color:white;
+    text-align: cneter;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+}
+
+.cart {
+    margin: 0 15% 0 15%;
+    position: relative;
+}
+
+.item {
+    height: 200px;
+}
+
+.item_img {
+    width: 15%;
+    float: left;
+    position: relative;
+}
+
+.item_info {
+    position: relative;
+    float: left;
+    width: 50%;
+    margin: 0 0 0 30px;
+}
+
+.cart h1{
+    font-size: 1.8em;
+    margin: 0 0 10px 0;
+}
+
+.cart p {
+    margin: 5px 0 5px 0;
+}
+
+input[type=number] {
+    width: 15px;
+}
+
+.delete_button {
+    font-size: 0.8em;
+    margin: 10px 0 0 0;
+    color: #195DAD;
+    border: none;
+    background-color: white;
+    padding-left: 0;
+}
+
+.item_price {
+    position: relative;
+    width: 20%;
+    float:right;
+    text-align: right;
+}
+

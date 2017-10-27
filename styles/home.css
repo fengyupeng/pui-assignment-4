@@ -1,0 +1,114 @@
+@font-face {font-family: Avenir; src: ("/Avenir 1/AveniHea"), src:("/Avenir 2/AveniRom");}
+
+
+body{
+  text-align: left;
+  width: 100%;
+  margin: auto;
+  color: #ACA074;
+  font-family: 'Arial', sans-serif;
+}
+
+header{text-align: center;}
+
+nav ul{
+    padding-top: 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none; 
+    color: #ACA074; 
+    padding-left: 3em; 
+    padding-right: 3em
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+}
+
+#background { 
+    width: 100%;
+    height: 800px;
+    z-index: 0;
+    position: relative;
+}
+
+#background img{
+    width: 100%;
+    position: absolute;
+}
+
+#text_on_background{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    padding-top: 11em;
+}
+
+#paragraph{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.product {
+    padding-left: 150px;
+    height: 450px;
+ }
+
+.product_img{
+    width:30%;
+    float:left;
+    position: relative;
+}
+
+.product_info{
+    width:65%;
+    float:right;
+    position: relative;
+}
+
+.detail_link {
+    text-decoration: none; 
+    color: #ACA074; 
+    font-size: 1.2em;
+}
+
+.detail_link h1 {
+    margin-top: 10px;
+}
+
+.shape{
+    color:#787878;
+}
+
+input[type=number] {
+    width: 15px;
+}
+
+.add_button{
+    background-color: #ACA074;
+    border: none;
+    padding:15px 32px;
+    color:white;
+    text-align: cneter;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.selection_title{
+    color: black;
+    margin-bottom: 5px;
+    margin-top: 2em;
+}
+
+p {
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+}
+
+
+

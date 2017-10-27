@@ -1,1 +1,75 @@
-<!-- fill me in!-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Flip Stitch Pillow</title>
+
+  <!--The following line loads in your CSS style sheet-->
+  <link rel="stylesheet" href="styles/home.css">
+
+  <!--The following line loads in 2 fonts from Google Fonts: Bad Script and Lato-->
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Lato" rel="stylesheet">
+
+  <!-- loads jQuery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <!--The following line loads in your JS script-->
+  <script src="scripts/todo.js"></script>
+</head>
+
+<body id = "home_page">
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a title = "Home" href="">Home</a>
+          <a title = "Cart" href="html/cart.html" id="cart">Cart (0)</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section class = 'main'>
+    <div id = "background">
+      <img src = 'resources/images/background.png' id = "background_img">
+      <div id = "text_on_background">
+        <h1 id  = 'title'>Flip Stitch Pillow</h1>
+        <h3 id = 'paragraph'>Tired of dull pillows? We specialize in custom decorative throw pillows. All pillows are handmade in our artisan workshop out of Pittsburgh PA. </h3>
+      </div>
+    </div>
+    <div id = 'shop'>
+
+
+      <div class = 'product' id = 'couch'>
+        <img src = 'resources/images/pillow0.png' class = 'product_img'>
+        <div class = 'product_info'>
+          <a href="html/detail.html" class = "detail_link">
+          <h1 class = 'product_name'>Couch Pillow<br />$25</h1>
+          </a>
+          <p class = 'selection_title'>Shape</p>
+          <form class="shape">
+            <input type="radio" name="shape" value="square" checked> Square
+            <input type="radio" name="shape" value="round"> Round
+            <input type="radio" name="shape" value="dog"> Dog
+            <input type="radio" name="shape" value="cat"> Cat
+            <input type="radio" name="shape" value="bunny"> Bunny
+            <input type="radio" name="shape" value="bear"> Bear
+            <input type="radio" name="shape" value="custom"> Custom
+          </form>
+          <p class = 'selection_title'>Quantity</p>
+          <form>
+            <input type='button' value="-" class = "minus_button">
+            <input type="number" name="quantity" class="quantity_input" value = '0'>
+            <input type="button" value="+" class ="plus_button">
+          </form>
+          <button class = "add_button" name = "couch" >Add to cart</button>
+        </div>
+      </div>
+
+      
+
+      
+        
+      </div>
+    </div>
+  </section>
+</body>
+</html>
